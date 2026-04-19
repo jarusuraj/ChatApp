@@ -6,7 +6,7 @@ const userRoutes = require("./routes/user.routes");
 const app = express();
 app.use(
   cors({
-    origin: "https://your-frontend.vercel.app",
+    origin: "74.220.56.0/24",
     credentials: true,
   }),
 );
